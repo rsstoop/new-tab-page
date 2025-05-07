@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Background Image</title>
+  <title>Fast Background Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="new-tab-favicon.png">
+  <link rel="preload" as="image" href="new-tab-image.webp" type="image/webp">
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
+      background-color: #0d0d0d;
     }
     body {
-      background: url("new-tab-image.jpg") no-repeat center center fixed;
+      background: url("new-tab-image.webp") no-repeat center center fixed;
       background-size: cover;
     }
   </style>
